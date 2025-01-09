@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = (props) => {
-    const mySite = "https://www.harshraj.gq/"
+    const mySite = "https://www.fzno.in/"
     // Getting Current Year
     const d = new Date();
     let year = d.getFullYear();
@@ -11,7 +11,7 @@ const Footer = (props) => {
                 <div className="row">
                     <div className="col-sm-8 pt-3">
                         <p className='mx-2'>© 2022{year===2022?"":-year} All Rights Reserved | Developed by
-                            <a className={`link-dark text-decoration-none`} href={mySite}> Harsh Raj</a>
+                            <a className={`link-dark text-decoration-none`} href={mySite}>FZNO</a>
                         </p>
                     </div>
                     <div className="d-flex justify-content-center col-sm-4 p-3">
